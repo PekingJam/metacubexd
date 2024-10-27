@@ -1,5 +1,6 @@
 import corvu from '@corvu/tailwind'
 import daisyui from 'daisyui'
+import { light } from 'daisyui/src/theming/themes'
 import { Config } from 'tailwindcss'
 
 export default {
@@ -9,9 +10,10 @@ export default {
     themes: [
       {
         light: {
+          ...light,
           accent: '#ffffff',
           success: '#1aad19',
-          info: '#0000ff',
+          info: '#1E90FF',
           warning: '#f8d007',
           error: '#ff0000',
         },
