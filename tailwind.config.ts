@@ -22,6 +22,8 @@ export default {
       },
       colors: {
         accent: '#ffffff',
+        secondary: '#ffffff',
+        'base-100': '#ffffff',
         success: '#1aad19',
         info: '#1E90FF',
         warning: '#f8d007',
