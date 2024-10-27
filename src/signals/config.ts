@@ -60,7 +60,7 @@ export const [autoCloseConns, setAutoCloseConns] = makePersisted(
   { name: 'autoCloseConns', storage: localStorage },
 )
 
-export const useTwemojiDefault = false
+export const useTwemojiDefault = true
 
 export const [useTwemoji, setUseTwemoji] = makePersisted(
   createSignal(useTwemojiDefault),
