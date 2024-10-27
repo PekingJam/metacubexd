@@ -11,7 +11,7 @@ export default {
       {
         light: {
           ...themes['light'],
-          neutral: '#ffffff',
+          neutral: '#E6E6FA',
           accent: '#808000',
           success: '#1aad19',
           info: '#1E90FF',
