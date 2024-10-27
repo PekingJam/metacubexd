@@ -21,9 +21,7 @@ export default {
         'no-twemoji': ['system-ui', 'Fira Sans', 'monospace'],
       },
       colors: {
-        accent: '#ffffff',
-        secondary: '#ffffff',
-        'base-100': '#ffffff',
+        neutral: '#ffffff',
         success: '#1aad19',
         info: '#1E90FF',
         warning: '#f8d007',

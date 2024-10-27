@@ -1,40 +1,7 @@
 import { ApexOptions } from 'apexcharts'
 import byteSize from 'byte-size'
 
-export const themes = [
-  'acid',
-  'aqua',
-  'autumn',
-  'black',
-  'bumblebee',
-  'business',
-  'cmyk',
-  'coffee',
-  'corporate',
-  'cupcake',
-  'cyberpunk',
-  'dark',
-  'dim',
-  'dracula',
-  'emerald',
-  'fantasy',
-  'forest',
-  'garden',
-  'halloween',
-  'lemonade',
-  'light',
-  'lofi',
-  'luxury',
-  'night',
-  'nord',
-  'pastel',
-  'retro',
-  'sunset',
-  'synthwave',
-  'valentine',
-  'winter',
-  'wireframe',
-] as const
+export const themes = ['light', 'dark'] as const
 
 export enum ROUTES {
   Overview = '/overview',
