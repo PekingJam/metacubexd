@@ -16,7 +16,7 @@ import {
   ConnectionsTableColumnVisibility,
 } from '~/types'
 
-export const proxiesPreviewTypeDefault = PROXIES_PREVIEW_TYPE.Auto
+export const proxiesPreviewTypeDefault = PROXIES_PREVIEW_TYPE.DOTS
 
 export const [proxiesPreviewType, setProxiesPreviewType] = makePersisted(
   createSignal(proxiesPreviewTypeDefault),
