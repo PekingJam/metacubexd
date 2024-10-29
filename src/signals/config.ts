@@ -30,7 +30,7 @@ export const [proxiesOrderingType, setProxiesOrderingType] = makePersisted(
   { name: 'proxiesOrderingType', storage: localStorage },
 )
 
-export const renderProxiesInTwoColumnsDefault = true
+export const renderProxiesInTwoColumnsDefault = false
 
 export const [renderProxiesInTwoColumns, setRenderProxiesInTwoColumns] =
   makePersisted(createSignal(renderProxiesInTwoColumnsDefault), {
